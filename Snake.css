@@ -1,0 +1,6 @@
+.container{
+    text-align: center;
+}
+#Score,#game-status{
+    color: blue;
+}
