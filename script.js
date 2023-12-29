@@ -125,8 +125,7 @@ function inputControl(e){
     document.getElementById("game-status").innerHTML=gameStatus;   
 }
 
-window.onload = function () {
-   
-    // Trigger a click on the New Game button
-    document.querySelector('.new-game').click();
-};
+const newGameButton = document.querySelector('.new-game');
+newGameButton.addEventListener('click', () => {
+    window.location.reload(); // Reload the current page
+});
