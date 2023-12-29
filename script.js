@@ -125,7 +125,3 @@ function inputControl(e){
     document.getElementById("game-status").innerHTML=gameStatus;   
 }
 
-const newGameButton = document.querySelector('.new-game');
-newGameButton.addEventListener('click', () => {
-    window.location.reload(); // Reload the current page
-});
