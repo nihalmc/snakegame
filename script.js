@@ -129,3 +129,4 @@ const newGameButton = document.querySelector('.new-game');
 newGameButton.addEventListener('click', () => {
     window.location.reload(); // Reload the current page
 });
+
