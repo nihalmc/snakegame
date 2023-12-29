@@ -126,9 +126,7 @@ function inputControl(e){
 }
 
 window.onload = function () {
-    document.addEventListener("keydown", inputControl);
-    
-
+   
     // Trigger a click on the New Game button
     document.querySelector('.new-game').click();
 };
