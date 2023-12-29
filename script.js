@@ -127,7 +127,7 @@ function inputControl(e){
 
 window.onload = function () {
     document.addEventListener("keydown", inputControl);
-    game = setInterval(mainGame, 200);
+    
 
     // Trigger a click on the New Game button
     document.querySelector('.new-game').click();
